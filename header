@@ -1,0 +1,38 @@
+    <header class="site-header">
+      <div class="container">
+      <div class="site-branding">
+        <div class="site-title site-titles" >
+        <a href="<?php echo esc_url( home_url( '/' ) ); ?>"  rel="home"><img src="<?php echo get_template_directory_uri(); ?>/img/rainbird homestay logo.svg" alt="Rainbird homestay"></a>
+        </div>
+  
+      </div><!-- .site-branding -->
+      <nav id="site-navigation" class="main-navigation right-menu">
+          <div class="top-menu">
+            <ul>
+              <li> <a href="mailto:stay@rainbirdhomestay.in "> <i class="icon-message"></i> <span>stay@rainbirdhomestay.in </span></a></li>
+              <li> <a href="tel:+91 9901753301"><i class="icon-call"></i> <span>+91 9901753301</span></a> </li>
+            </ul>
+          </div>
+          <div class="ham">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+          <div class="rb-main-menu">
+          <ul>
+          <li>Home</li>
+          <li>service</li>
+          <li>gallery</li>
+          </ul>
+            <!-- <?php
+              wp_nav_menu( array(
+                'theme_location' => 'menu-1',
+                'menu_id'        => 'primary-menu',
+              ) );
+            ?> -->
+            <a href="<?php echo home_url('contact-us'); ?>" class="btn btn-outline"> Book Now</a>
+          </div>
+      
+      </nav><!-- #site-navigation -->
+      </div>
+    </header><!-- #masthead -->
